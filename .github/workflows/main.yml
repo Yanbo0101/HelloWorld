@@ -5,7 +5,7 @@ on:
 
 jobs:
   hello:
-    runs-on: sgx-dev
+    runs-on: self-hosted
     steps:
       - name: Print a greeting
         env:
